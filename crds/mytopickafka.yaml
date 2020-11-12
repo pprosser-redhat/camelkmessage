@@ -1,6 +1,7 @@
 apiVersion: kafka.strimzi.io/v1beta1
 kind: KafkaTopic
 metadata:
+  name: my-topic
   namespace: amq-streams
   labels:
     strimzi.io/cluster: my-cluster
